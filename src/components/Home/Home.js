@@ -9,9 +9,8 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
         <Container className="home-content">
-          <Row>
+        <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
@@ -22,7 +21,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> ALKA SAH</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -39,10 +38,15 @@ function Home() {
               />
             </Col>
           </Row>
+
         </Container>
+
       </Container>
-      <Home2 />
+
+      
     </section>
+    
+    
   );
 }
 
