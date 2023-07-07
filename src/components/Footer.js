@@ -2,15 +2,15 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  // AiOutlineTwitter,
+  // AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn ,FaFilePdf } from "react-icons/fa";
 import Resume from "../Assets/resume.pdf"
 
 function Footer() {
-  let date = new Date();
-  let year = date.getFullYear();
+  //let date = new Date();
+  // let year = date.getFullYear();
   return (
     <Container fluid className="footer">
       <Row>
@@ -47,16 +47,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            {/* <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li> */}
+            
           </ul>
         </Col>
       </Row>
